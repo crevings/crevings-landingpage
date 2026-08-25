@@ -2065,14 +2065,6 @@ export default function App() {
   const [hasKey, setHasKey] = useState(false);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPage, setCurrentPageState] = useState(() => {
-    const path = window.location.pathname.toLowerCase();
-    if (path.includes('customerprivacypolicy')) {
-      return 'customerprivacypolicy';
-    }
-    return 'food';
-  });
-
-    const [currentPage, setCurrentPageState] = useState(() => {
     const path = window.location.pathname.toLowerCase().replace(/\/$/, '') || '/';
     if (path.includes('customerprivacypolicy')) return 'customerprivacypolicy';
     if (path.includes('delivery')) return 'delivery';
