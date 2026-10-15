@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemap
-Sitemap: https://crevings-landingpage.vercel.app/sitemap.xml
+Sitemap: https://www.crevings.com/sitemap.xml
