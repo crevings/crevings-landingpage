@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 
-const SITE_URL = 'https://crevings-landingpage.vercel.app';
+const SITE_URL = 'https://www.crevings.com';
 const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`;
 
 type PageKey =
